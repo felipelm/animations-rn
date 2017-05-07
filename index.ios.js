@@ -14,11 +14,12 @@ import {
 import Paralax from './app/paralax/paralax'
 import HeartView from './app/heart/heart-view'
 import ActionButtom from './app/action-buttom/action-buttom'
+import Swipe from './app/swipe'
 
 export default class animations extends Component {
   render() {
     return (
-      <ActionButtom />
+      <Swipe />
     );
   }
 }
