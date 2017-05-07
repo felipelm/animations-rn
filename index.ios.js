@@ -13,11 +13,12 @@ import {
 } from 'react-native';
 import Paralax from './app/paralax/paralax'
 import HeartView from './app/heart/heart-view'
+import ActionButtom from './app/action-buttom/action-buttom'
 
 export default class animations extends Component {
   render() {
     return (
-      <HeartView />
+      <ActionButtom />
     );
   }
 }
